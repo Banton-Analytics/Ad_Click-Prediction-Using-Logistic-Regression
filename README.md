@@ -16,7 +16,7 @@ The dataset used for this project, sourced from [Kaggle](https://www.kaggle.com/
 #### Methodology:
 
 #### Data Exploration and Visualization
-   - [x] An initial exploration was conducted to understand the dataset's structure, types, and the distribution of variables.
+   - [x] An initial exploration was conducted to understand the dataset's structure, types, and distribution of variables.
    - [x] Visualization: A histogram was used to examine the distribution of age across genders, revealing a balanced dataset with most users aged between 20 and 50 years.
 
 #### Data Preprocessing
@@ -24,7 +24,7 @@ The dataset used for this project, sourced from [Kaggle](https://www.kaggle.com/
    - [x] Feature Scaling: StandardScaler was used to normalize the features, ensuring that variables with different units do not skew the model's performance.
 
 #### Model Building
-   - [x] Logistic Regression: A logistic regression model was developed using both `sklearn` and `statsmodels` libraries to predict the likelihood of a user making a purchase after clicking on an ad.
+   - [x] Logistic Regression: A logistic regression model was developed using both `sklearn` and `statsmodels` libraries to predict the likelihood of a user purchasing after clicking on an ad.
    - [x] Training and Testing: The model was trained on the training set and evaluated on the test set, with accuracy scores calculated to assess performance.
 
 #### Model Evaluation
@@ -37,10 +37,9 @@ The dataset used for this project, sourced from [Kaggle](https://www.kaggle.com/
    - [x] Statistical Significance: The p-values from `statsmodels` indicated that gender is a statistically significant predictor of purchase behavior, while age and estimated salary were less so.
 
 #### Conclusion
-This project successfully developed a logistic regression model to predict whether a user will make a purchase after clicking on an advertisement. The analysis provided valuable insights into the demographic factors influencing purchase decisions, particularly the role of gender. The model and findings can be used to optimize ad targeting strategies and improve overall sales performance.
+- This project successfully developed a logistic regression model to predict whether a user will purchase after clicking on an advertisement. The analysis provided valuable insights into the demographic factors influencing purchase decisions, particularly the role of gender. The model and findings can be used to optimize ad targeting strategies and improve overall sales performance.
 
 #### Future Work
 - [x] Feature Engineering: Explore additional features or transformations to enhance model accuracy.
 - [x] Model Comparison: Compare logistic regression with other classification models such as Random Forest or SVM.
 - [x] Hyperparameter Tuning: Optimize model parameters to improve performance.
-
